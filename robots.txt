@@ -1,0 +1,14 @@
+# Algemene regels voor alle user agents
+User-agent: *
+Allow: /
+
+# Specificeer de sitemap voor het subdomein
+Sitemap: https://mudanza-de-florida-a-puerto-rico.intl-movers.net/sitemap.xml
+
+# Specifieke regels voor Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Specifieke regels voor Bingbot
+User-agent: Bingbot
+Allow: /
