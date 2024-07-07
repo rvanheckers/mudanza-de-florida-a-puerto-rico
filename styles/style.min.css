@@ -1,0 +1,41 @@
+/* === Stijlen voor het hoofdmenu === */
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Witte tekstkleur */
+    padding: 1rem 1rem !important; /* Padding aanpassen om de hoogte te vergroten */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc !important; /* Kleur bij hover */
+}
+
+/* === Stijlen voor het submenu === */
+.navbar-nav .dropdown-menu {
+    background-color: #007bff !important; /* Zelfde achtergrondkleur als het hoofdmenu */
+    border: none !important; /* Geen rand */
+    white-space: normal !important; /* Zorgen dat de tekst niet op één regel blijft */
+    word-break: break-word !important; /* Woorden afbreken indien nodig */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #ffffff !important; /* Witte tekstkleur voor submenu items */
+    padding: 0.5rem 1rem !important; /* Padding aanpassen */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #0056b3 !important; /* Donkerdere kleur bij hover */
+    color: #ffffff !important; /* Tekstkleur bij hover */
+}
+
+/* Custom CSS for the sticky column */
+.position-sticky {
+    position: sticky;
+    top: 20px; /* Beginpositie van de sticky kolom */
+    overflow: visible; /* Zorg ervoor dat de inhoud zichtbaar blijft */
+    margin-bottom: 100px; /* Voeg wat extra ruimte toe aan de onderkant van de kolom om vroegtijdig stoppen te voorkomen */
+    z-index: 1000; /* Voeg een hoge z-index toe om ervoor te zorgen dat het boven andere elementen blijft */
+}
+
+/* Extra ruimte aan de onderkant van de container om sticky element te laten stoppen */
+.container-sticky {
+    padding-bottom: 150px; /* Voeg extra padding toe aan de onderkant van de container */
+}
