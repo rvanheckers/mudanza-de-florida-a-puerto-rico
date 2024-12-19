@@ -1,0 +1,60 @@
+.step-wizard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step-wizard-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #dcdcdc;
+    z-index: -1;
+}
+
+.progress-bar-active {
+    background-color: #007BFF;
+}
+
+.step-wizard-item:not(:last-child) .progress-bar {
+    z-index: 0;
+}
+
+.wizard-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.wizard-circle.active {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.wizard-circle i {
+    font-size: 16px;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}

@@ -1,0 +1,45 @@
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.step-wizard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.wizard-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wizard-circle.active {
+    background: #007bff;
+    color: white;
+}
+
+.btn {
+    margin: 10px 5px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
