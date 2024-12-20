@@ -1,51 +1,15 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!-- This sitemap was generated using QuickSitemap.com and complies with Google standards. -->
 <url>
   <loc>https://mudanza-de-florida-a-puerto-rico.intl-movers.net</loc>
   <lastmod>2024-12-20</lastmod>
   <priority>0.5</priority>
   <changefreq>always</changefreq>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/construction-worker.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/man-holding-newspaper.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/cars-on-transportation.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/headerimage-puerto-rico-flag-and-beach.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/tablet-newsportal-website.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/puerto-rico-san-juan-attractions-colorful-buildings.webp</image:loc>
-  </image:image>
 </url>
 <url>
   <loc>https://mudanza-de-florida-a-puerto-rico.intl-movers.net/ES-lead-form.html</loc>
   <lastmod>2024-12-20</lastmod>
   <priority>0.5</priority>
   <changefreq>always</changefreq>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/construction-worker.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/man-holding-newspaper.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/cars-on-transportation.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/headerimage-puerto-rico-flag-and-beach.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/tablet-newsportal-website.webp</image:loc>
-  </image:image>
-  <image:image>
-    <image:loc>https://images.intl-movers.net/webpimages_int-movers-florida-PR/puerto-rico-san-juan-attractions-colorful-buildings.webp</image:loc>
-  </image:image>
 </url>
 </urlset>
