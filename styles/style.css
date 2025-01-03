@@ -62,6 +62,7 @@
         margin-top: 30px !important;
         position: relative !important;
         height: auto !important;
+        overflow-y: visible !important;
     }
 }
 
@@ -447,5 +448,21 @@
     max-height: 400px !important;
     object-fit: cover !important;
     display: block !important;
+}
+
+/* Zorg ervoor dat de zijbalk correct wordt weergegeven op mobiel */
+@media (max-width: 768px) {
+    .col-lg-4,
+    .col-xl-3 {
+        position: relative !important;
+        height: auto !important;
+        overflow-y: visible !important;
+    }
+
+    .position-sticky {
+        position: static !important;
+        overflow-y: auto !important;
+        max-height: none !important;
+    }
 }
 

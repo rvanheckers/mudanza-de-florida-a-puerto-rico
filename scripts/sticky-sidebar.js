@@ -10,12 +10,18 @@ window.addEventListener('scroll', function() {
     var stopPoint = stickyContainerTop + stickyContainerHeight - stickyElementHeight;
     var scrollPosition = window.scrollY;
 
-    if (scrollPosition > stopPoint) {
-        stickyElement.style.position = 'absolute'; // Verander positie naar absoluut
-        stickyElement.style.top = (stopPoint - stickyContainerTop) + 'px'; // Zet top op het stoppunt
+    if (window.innerWidth > 768) { // Alleen voor desktop
+        if (scrollPosition > stopPoint) {
+            stickyElement.style.position = 'absolute'; // Verander positie naar absoluut
+            stickyElement.style.top = (stopPoint - stickyContainerTop) + 'px'; // Zet top op het stoppunt
+        } else {
+            stickyElement.style.position = 'sticky'; // Zet positie terug naar sticky
+            stickyElement.style.top = '20px'; // Zet top terug naar de beginpositie
+        }
     } else {
-        stickyElement.style.position = 'sticky'; // Zet positie terug naar sticky
-        stickyElement.style.top = '20px'; // Zet top terug naar de beginpositie
+        // Reset voor mobiel
+        stickyElement.style.position = 'static';
+        stickyElement.style.top = '0';
     }
 });
 
